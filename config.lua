@@ -17,6 +17,7 @@
 	local frameHeight = 600
 	local listWidth = 195
 
+local ShadowWordPain = GetSpellInfo(589)
 	---------------------------------------------------------------------------------------------
 
 	local function SetActiveProfile(profile)
@@ -154,7 +155,7 @@
 			["Grâce d'Elune"] = "all",
 			["Toucher de faiblesse"] = "all",
 			["Garde de l'ombre"] = "all",
-			["Mot de l'ombre : Douleur"] = "mine",
+			[ShadowWordPain] = "mine",
 			["Toucher vampirique"] = "mine",
 			["Etreinte vampirique"] = "mine",
 			["Peste dévorante"] = "mine",
